@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <title>EMDS</title>
+  <link rel="icon" type="image/jpg" href="images/icon.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid mx-4">
+        <img src="images/image.jpeg" style="width: 156px; height: 46px;" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-5 float-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                MORE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="contactus.html">Contact Us <span class="badge rounded-pill bg-success">new</span></a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" onclick="alert('Sorry !! no results found')">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide crousel-dark carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 600px;">
+          <img src="images/crousel_1.jpg" class="d-block w-100" alt="crousel-image 1">
+          <div class="carousel-caption d-none d-md-block text-warning">
+            <h3 class="fs-1">Emergency Medicine & Drug Service</h3>
+            <p>WELCOME !! to our Service</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 600px;">
+          <img src="images/crousel_2.jpg" class="d-block w-100" alt="crousel-image 2">
+          <div class="carousel-caption d-none d-md-block text-primary">
+            <h3 class="fs-1">Emergency Medicine & Drug Service</h3>
+            <p>Online Doctor Consultancy Service is also available</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 600px;">
+          <img src="images/crousel_3.jpg" class="d-block w-100" alt="crousel-image 3">
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <h3 class="fs-1">Emergency Medicine & Drug Service</h3>
+            <p>Rear Medicines are also available</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 600px;">
+          <img src="images/crousel_4.jpg" class="d-block w-100" alt="crousel-image 2">
+          <div class="carousel-caption d-none d-md-block" style="color: rgb(222, 12, 241);">
+            <h3 class="fs-1">Emergency Medicine & Drug Service</h3>
+            <p>Home Delivery in remote areas also available</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="album py-5 my-2 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_1.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="400px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">It contains Vitamin-E, AloeVera & Glycerine. AloeVera improves Skin, lowers blood
+                  sugar level. Vitamins are needed for growth and good health. Vitamin E is thought to protect the body
+                  from the harmful effects of a chemical reaction known as oxidation. Vitamin E is important for many
+                  processes in the body.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://en.wikipedia.org/wiki/Lotion" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Cute Smile Lotion</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_2.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="400px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">Efnocar 40 Tablet is a medicine used to treat high blood pressure (hypertension).
+                  It belongs to a class of medicines known as calcium channel blocker which helps to lower blood
+                  pressure and reduce the workload of the heart. This helps prevent heart attacks and strokes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://www.1mg.com/drugs/efnocar-40-tablet-372585" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Efnocar-40</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_3.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="400px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">Maxmoist Eye Drop is a prescription medicine used to treat symptoms of dry eyes. It
+                  lubricates the eyes helps in maintaining the moisture of the eyes. This way it provides temporary
+                  relief from burning and discomfort caused by dry eyes. It also reduces redness and swelling of the
+                  eye.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://www.1mg.com/drugs/maxmoist-eye-drop-142435" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Maxmoist</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_4.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="350px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">Thiox Gel is an analgesic anti-pyretic gel used for the treatment of fever and body
+                  ache. It is a topical medication that is applied to the affected areas. The gel comprises of a
+                  non-steroidal anti-inflammatory drug that decreases the hormone which causes pain in the body. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://www.1mg.com/otc/thiox-gel-otc245172" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Thiox Gel</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_5.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="350px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">Eplerenone oral tablet is available as a generic drug and a brand-name drug. Brand
+                  name: Inspra. Eplerenone comes only as a tablet you take by mouth. Eplerenone oral tablet is used to
+                  treat hypertension (high blood pressure), and heart failure after you have a heart attack.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://www.healthline.com/health/eplerenone-oral-tablet" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Eplorenone JP 25 mg</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/medicine_6.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="350px"
+                role="img" focusable="false">
+
+              <div class="card-body">
+                <p class="card-text">Nexovas 10 Tablet is a medicine used to treat high blood pressure (hypertension).
+                  It belongs to a class of medicines known as a calcium channel blocker which helps to lower blood
+                  pressure. This helps prevent heart attacks and strokes. It may also be prescribed to prevent angina
+                  (heart-related chest pain).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <form action="https://www.1mg.com/drugs/nexovas-10-tablet-118407" target="_blank">
+                      <input class="btn btn-sm btn-outline-secondary" type="submit" value="Read More" />
+                    </form>
+                  </div>
+                  <small class="text-muted">Nexovas 10</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="container pt-5 mt-2">
+        <div class="alert alert-danger w-50 mx-auto text-center" role="alert">
+          Always buy medicine's only after consulting a registered Doctor !!
+        </div>
+      </section>
+    </div>
+    </div>
+
+
+
+    <section class="container float-none py-4">
+      <h1 class="display-3 text-center mb-4 text-primary text-decoration-underline fs-1"><b>We Provide</b></h1>
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 24%;">Serivices</th>
+              <th style="width: 28%;">Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="width: 32%;">
+              <th scope="row" class="text-start text-center">Cheap Price</th>
+              <td class="text-success">Yes</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-center">Availability</th>
+              <td class="text-success">Yes</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-center">Home Delivery in remote areas</th>
+              <td class="text-success">Yes</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-center">Online Doctor Consultancy</th>
+              <td class="text-success">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-secondary py-1" style="background-color: rgb(186, 190, 197);">
+    <div class="container py-1">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2021 -- Company (EMDS), in Developing Stage <a href="aboutus.html">About Us</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
